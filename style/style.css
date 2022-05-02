@@ -6,7 +6,7 @@
     border: 0.2em solid #333;
     margin: auto;
     width: 20em;
-    height: 10em;
+    height: 13em;
     padding: 3em;
     position: relative;
     top: 3em;
@@ -51,7 +51,7 @@
   }
   @media (max-width: 520px){
     .container{
-      width: 15em;
+      width: 13em;
       padding: 1.8em;
       font-size: 1.9em;
     }
