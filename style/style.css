@@ -44,3 +44,15 @@
     top: 4em;
     left: 3em;
   }
+  .reset{
+    position: relative;
+    top: 4em;
+    margin: 0 auto;
+  }
+  @media (max-width: 520px){
+    .container{
+      width: 15em;
+      padding: 1.8em;
+      font-size: 1.9em;
+    }
+  }

@@ -2,6 +2,7 @@ const yes = document.querySelector('.yes')
 const no = document.querySelector('.no')
 const question = document.querySelector('.question')
 const result = document.querySelector('.result')
+const reset = document.querySelector('.reset')
 no.addEventListener("click", () => {
     let arrTop = ["2em", "6em"]
     let arrLeft = ["1em", "5em"]
@@ -15,4 +16,9 @@ no.addEventListener("click", () => {
 yes.addEventListener("click", () => {
     question.style.display = "none"
     result.style.display = "block"
+})
+reset.addEventListener("click", () => {
+    result.style.display = "none"
+    question.style.display = "block"
+    window.location.reload()
 })
