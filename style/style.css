@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .container{
+    border: 0.2em solid #333;
+    margin: auto;
+    width: 20em;
+    height: 10em;
+    padding: 3em;
+    position: relative;
+    top: 3em;
+    text-align: center;
+    background-color: #333;
+    color: #eee;
+    font-size: 3em;
+    font-weight: 600;
+    font-family: monospace;
+  }
+  .result{
+    display: none;
+  }
+  .question{
+    display: block;
+  }
+  button{
+    display: inline-block;
+    height: 2.3em;
+    width: 4.5em;
+    background-color: skyblue;
+    opacity: .5;
+    border: none;
+    font-size: .5em;
+    font-weight: 700;
+   
+  }
+  .yes{
+    position: relative;
+    top: 4em;
+    right: 3em;
+  }
+  .no{
+    position: relative;
+    top: 4em;
+    left: 3em;
+  }
