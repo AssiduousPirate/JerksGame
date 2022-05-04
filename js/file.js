@@ -13,6 +13,9 @@ no.addEventListener("mouseover", () => {
     no.style.left = ranNumLeft
     no.style.top =  ranNumTop
 })
+no.addEventListener("click", () => {
+    window.location.reload()
+})
 yes.addEventListener("click", () => {
     question.style.display = "none"
     result.style.display = "block"
